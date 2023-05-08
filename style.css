@@ -1,0 +1,127 @@
+*{
+    
+}
+body{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+  
+    
+}
+.container{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    
+}
+.result-container{
+    background-color:#5A3DF9 ;
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    
+    
+    
+
+}
+.result-container h3 {
+    color:#C7BBFE ;
+}
+.result-container h1{
+    color:#FFFFFF ;
+}
+.result-container h4{
+    color:#FFFFFF ;
+}
+.result-container p{
+    color: #C5C2FF;
+}
+.percent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #4925CF;
+}
+.percent span{
+    margin-bottom: 10px;
+    color: #8274FF;
+}
+.summary-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFEFD;
+    width: 300px;
+    justify-content: space-around;
+    margin-left: 10px;
+    /* border-radius: 25px; */
+}
+.summary-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 20px;
+    height: 35px;
+    border-radius: 6px;
+    
+}
+.summary-item svg{
+    flex-grow: 0;
+    margin-right: 10px;
+    margin-left: 5px;
+
+}
+.summary-item h3{
+    flex-grow: 0;
+    
+}
+.summary-item p{
+margin-left: auto;
+padding-right: 10px;
+    
+}
+.reaction{
+    background-color: #FFF6F5;
+}
+.reaction h3{
+    color: #F9B7B9;
+}
+.memory{
+    background-color: #FFFBF2;
+}
+.memory h3{
+    color: #F8DB94;
+}
+.verbal{
+    background-color: #F3F3FF;
+}
+.verbal h3{
+    color: #9DE2D3;
+}
+.visual{
+    background-color: #F2FAFA;
+}
+.visual h3{
+    color: #543AF6;
+}
+.summary-container button{
+    background-color: #4C37F4;
+    border-radius: 21px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    padding: auto 5px;
+}
